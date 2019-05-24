@@ -59,3 +59,15 @@ typings/
 
 # next.js build output
 .next
+
+# Flash Player
+flash/player/
+
+# Releases
+release-builds/
+
+# Visual Studio
+*/_notes/
+
+# Electron Packager
+electron-packager

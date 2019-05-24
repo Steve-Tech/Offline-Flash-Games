@@ -1,0 +1,22 @@
+{
+  "name": "offline-flash-games",
+  "productName": "Steve's Offline Flash Games",
+  "description": "Steve's Offline Collection of Flash Player Games",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "0.1.0",
+  "author": "Steve",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "4.2.2",
+    "electron-packager": "^13.1.1"
+  },
+  "build": {
+    "extraResources": [
+      "./flash/**"
+    ]
+  }
+}

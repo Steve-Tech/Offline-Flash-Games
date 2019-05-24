@@ -1,0 +1,24 @@
+/* CSS Document */
+@font-face {
+  font-family: 'Black Ops One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Black Ops One Regular'), local('BlackOpsOne-Regular'), url(../css/BlackOpsOne.ttf) format('truetype'), url(https://fonts.gstatic.com/s/blackopsone/v10/qWcsB6-ypo7xBdr6Xshe96H3aDvbsg.ttf) format('truetype');
+}
+body {
+	font-family: 'Black Ops One', sans-serif;
+}
+header {
+	margin-top: 5rem;
+}
+.card {
+	margin-bottom: 15px!important;
+}
+.hidden-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+.jumbotron-fluid {
+	margin: 2rem 0 0 0;
+	padding: 2rem;
+}
