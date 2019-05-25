@@ -4,7 +4,7 @@
   "description": "Steve's Offline Collection of Flash Player Games",
   "keywords": [],
   "main": "./main.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Steve",
   "scripts": {
     "start": "electron ."
@@ -13,10 +13,5 @@
   "devDependencies": {
     "electron": "4.2.2",
     "electron-packager": "^13.1.1"
-  },
-  "build": {
-    "extraResources": [
-      "./flash/**"
-    ]
   }
 }
